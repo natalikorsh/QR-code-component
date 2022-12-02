@@ -28,15 +28,19 @@ body {
 }
 
 .main-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
   width: 375px;
-  margin: 0 auto;
+  margin: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .qr-container {
   width: 335px;
-  margin: 50px auto;
+  margin: auto;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
@@ -68,6 +72,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   color: var(--grayish-blue);
+  margin-top: 30px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
